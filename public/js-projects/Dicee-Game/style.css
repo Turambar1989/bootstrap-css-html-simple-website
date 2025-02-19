@@ -32,6 +32,9 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
+a {
+  text-decoration: none;
+}
 .bottom-container {
   background-color: #2c3930;
   color: #dcd7c9;
@@ -53,4 +56,3 @@ footer {
   border: 2px solid;
   border-radius: 15px;
 }
-
