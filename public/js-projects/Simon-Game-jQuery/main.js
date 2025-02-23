@@ -10,6 +10,13 @@ $(document).keypress(function () {
     started = true;
   }
 });
+$(".mobilebutton").click(function () {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
 function nextSequence() {
   userClickedPattern = [];
   level++;
