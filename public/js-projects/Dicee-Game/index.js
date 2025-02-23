@@ -1,3 +1,11 @@
+const refreshImg = document.querySelector("#refresh");
+refreshImg.addEventListener("mouseover", (event) => {
+  event.target.setAttribute("src", "./images/icons8-refresh.svg");
+});
+refreshImg.addEventListener("mouseout", (event) => {
+  event.target.setAttribute("src", "./images/icons8-refresh-80.svg");
+});
+
 var x = Math.floor(Math.random() * 6) + 1;
 if (x === 1) {
   x = "./images/dice1.png";
