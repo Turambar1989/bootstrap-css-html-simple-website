@@ -23,3 +23,6 @@ const mouseUp = () => {
 divContainer.addEventListener("mousedown", mouseDown);
 divContainer.addEventListener("mousemove", mouseMove);
 divContainer.addEventListener("mouseup", mouseUp);
+divContainer.addEventListener("touchstart", mouseDown);
+divContainer.addEventListener("touchmove", mouseMove);
+divContainer.addEventListener("touchend", mouseUp);
