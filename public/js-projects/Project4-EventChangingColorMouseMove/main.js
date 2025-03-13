@@ -12,4 +12,4 @@ const mouseMove = (event) => {
   document.body.style.backgroundColor = `rgb(${red}%, ${green}%, ${blue}%)`;
 };
 document.body.addEventListener("mousemove", mouseMove);
-document.body.addEventListener("touchmove", mouseMove);
+document.window.addEventListener("touchmove", mouseMove);
