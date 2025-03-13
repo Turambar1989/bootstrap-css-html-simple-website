@@ -13,8 +13,8 @@ const mouseMove = (event) => {
 };
 const touchMove = function (e) {
   const centerTxt = document.querySelector("h2");
-  const x = e.changedTouches[0].clientX;
-  const y = e.changedTouches[0].clientY;
+  const x = e.clientX;
+  const y = e.clientY;
   centerTxt.textContent = `${x}, ${y}`;
   const width = window.innerWidth;
   const height = window.innerHeight;
